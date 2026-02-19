@@ -1,0 +1,11 @@
+# .gitignore for Exam Reliability Analyzer
+.env
+__pycache__/
+*.py[cod]
+uploads/
+*.egg-info/
+dist/
+build/
+.venv/
+node_modules/
+frontend/dist/
