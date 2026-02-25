@@ -2,9 +2,10 @@ import StatsOverview from '../components/StatsOverview'
 import DifficultyChart from '../components/DifficultyChart'
 import QuestionTable from '../components/QuestionTable'
 import SimilarityReport from '../components/SimilarityReport'
+import CTTStatsPanel from '../components/CTTStatsPanel'
 
 export default function Dashboard({ data, onReset }) {
-    const { normResult, simResult } = data
+    const { normResult, simResult, statsResult } = data
     const exam = normResult.exam
     const warnings = normResult.warnings || []
     const questions = exam.questions || []
@@ -12,21 +13,23 @@ export default function Dashboard({ data, onReset }) {
     return (
         <div className="space-y-6">
             {/* Top bar */}
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between flex-wrap gap-3">
                 <div>
                     <h2 className="text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>
                         {exam.title || 'Exam Analysis Report'}
                     </h2>
                     <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
                         Source: <span style={{ color: 'var(--accent-blue)' }}>{exam.source_file}</span>
-                        &nbsp;·&nbsp;{exam.total_questions} questions extracted
+                        &nbsp;·&nbsp;{exam.total_questions} questions
+                        {statsResult && (
+                            <span> · <span style={{ color: 'var(--accent-green)' }}>
+                                {statsResult.total_students} students · α = {statsResult.cronbach_alpha}
+                            </span></span>
+                        )}
                     </p>
                 </div>
-                <button
-                    onClick={onReset}
-                    className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
-                    style={{ background: 'var(--bg-card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}
-                >
+                <button onClick={onReset} className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
+                    style={{ background: 'var(--bg-card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}>
                     ← New Analysis
                 </button>
             </div>
@@ -36,7 +39,7 @@ export default function Dashboard({ data, onReset }) {
                 <div className="p-4 rounded-xl"
                     style={{ background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)' }}>
                     <p className="font-semibold text-sm mb-2" style={{ color: 'var(--accent-yellow)' }}>
-                        ⚠️ {warnings.length} Warning{warnings.length > 1 ? 's' : ''} from Normalization
+                        ⚠️ {warnings.length} Normalization warning{warnings.length > 1 ? 's' : ''}
                     </p>
                     <ul className="space-y-1">
                         {warnings.map((w, i) => (
@@ -46,17 +49,20 @@ export default function Dashboard({ data, onReset }) {
                 </div>
             )}
 
-            {/* Stats Overview Cards */}
-            <StatsOverview exam={exam} simResult={simResult} />
+            {/* KPI Cards */}
+            <StatsOverview exam={exam} simResult={simResult} statsResult={statsResult} />
 
-            {/* Charts + Similarity row */}
+            {/* CTT Stats panel (only if student responses were uploaded) */}
+            {statsResult && <CTTStatsPanel stats={statsResult} />}
+
+            {/* Charts + Similarity */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <DifficultyChart questions={questions} />
+                <DifficultyChart questions={statsResult ? statsResult.question_stats : questions} hasStats={!!statsResult} />
                 <SimilarityReport report={simResult} />
             </div>
 
             {/* Question Table */}
-            <QuestionTable questions={questions} />
+            <QuestionTable questions={questions} statsResult={statsResult} />
         </div>
     )
 }
