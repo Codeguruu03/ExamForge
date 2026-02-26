@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  examforge:
+    build: .
+    container_name: examforge_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - examforge_uploads:/app/uploads
+    environment:
+      - OCR_SPACE_API_KEY=${OCR_SPACE_API_KEY:-}
+      - ALLOWED_ORIGINS=*    # Change in production
+    restart: unless-stopped
+
+volumes:
+  examforge_uploads:

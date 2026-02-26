@@ -25,11 +25,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
 # ── Routes ────────────────────────────────────────────────────────────────────
 app.include_router(router, prefix="/api")
 
 
-@app.get("/", tags=["Health"])
+@app.get("/api/health", tags=["Health"])
 def health_check():
     return {
         "status": "ok",
@@ -37,3 +40,13 @@ def health_check():
         "version": "1.0.0",
         "docs": "/docs",
     }
+
+# ── Frontend (Production / Docker) ────────────────────────────────────────────
+frontend_dist = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+if os.path.exists(frontend_dist):
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dist, "assets")), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_react_app(full_path: str):
+        # Serve index.html for all undefined routes (React Router support)
+        return FileResponse(os.path.join(frontend_dist, "index.html"))

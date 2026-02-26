@@ -10,6 +10,14 @@ export default function Dashboard({ data, onReset }) {
     const warnings = normResult.warnings || []
     const questions = exam.questions || []
 
+    const handleExport = () => {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, 2))
+        const dlAnchorElem = document.createElement('a')
+        dlAnchorElem.setAttribute("href", dataStr)
+        dlAnchorElem.setAttribute("download", `exam_report_${exam.exam_id || 'export'}.json`)
+        dlAnchorElem.click()
+    }
+
     return (
         <div className="space-y-6">
             {/* Top bar */}
@@ -28,10 +36,16 @@ export default function Dashboard({ data, onReset }) {
                         )}
                     </p>
                 </div>
-                <button onClick={onReset} className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
-                    style={{ background: 'var(--bg-card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}>
-                    ← New Analysis
-                </button>
+                <div className="flex gap-2">
+                    <button onClick={handleExport} className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
+                        style={{ background: 'var(--accent-blue)', color: 'white', border: '1px solid var(--accent-blue)' }}>
+                        📥 Export Report (JSON)
+                    </button>
+                    <button onClick={onReset} className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
+                        style={{ background: 'var(--bg-card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}>
+                        ← New Analysis
+                    </button>
+                </div>
             </div>
 
             {/* Warnings */}
