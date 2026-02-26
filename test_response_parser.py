@@ -23,7 +23,7 @@ for r in rows:
 assert len(rows) == 5
 assert rows[0]['responses']['1'] == 'C'
 assert rows[0]['responses']['4'] == 'D'
-print("  ✓ Wide format OK\n")
+print("  OK Wide format\n")
 
 # ── Test 2: Long format ───────────────────────────────────────────────────────
 long_csv = b"""student_id,question_id,answer
@@ -41,12 +41,12 @@ for r in rows:
     print(f"  {r['student_id']}: {r['responses']}")
 assert len(rows) == 2
 assert rows[0]['responses']['1'] == 'C'
-print("  ✓ Long format OK\n")
+print("  OK Long format\n")
 
 # ── Test 3: Excel BOM ─────────────────────────────────────────────────────────
 bom_csv = b'\xef\xbb\xbf' + b"student_id,1,2\nS01,A,B\nS02,C,D\n"
 rows = parse_response_csv(bom_csv)
 assert len(rows) == 2
-print("  ✓ Excel BOM handled OK\n")
+print("  OK Excel BOM handled\n")
 
-print("All response parser tests passed ✓")
+print("All response parser tests passed OK")
