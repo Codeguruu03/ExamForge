@@ -70,9 +70,9 @@ export default function QuestionTable({ questions }) {
             <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                     <thead>
-                        <tr style={{ borderBottom: '1px solid var(--border)' }}>
+                        <tr style={{ background: 'var(--bg-secondary)', borderBottom: '1px solid var(--border)' }}>
                             {['#', 'Question', 'Options', 'Answer', 'Status'].map(h => (
-                                <th key={h} className="px-4 py-3 text-left text-xs font-semibold"
+                                <th key={h} className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider"
                                     style={{ color: 'var(--text-secondary)' }}>{h}</th>
                             ))}
                         </tr>
@@ -99,7 +99,7 @@ export default function QuestionTable({ questions }) {
                                     onMouseEnter={e => e.currentTarget.style.background = 'var(--bg-card-hover)'}
                                     onMouseLeave={e => e.currentTarget.style.background = expanded === q.id ? 'var(--bg-card-hover)' : 'transparent'}
                                 >
-                                    <td className="px-4 py-3 font-bold text-xs w-10" style={{ color: 'var(--text-secondary)' }}>
+                                    <td className="px-4 py-4 font-bold text-xs w-12" style={{ color: 'var(--text-secondary)' }}>
                                         Q{q.id}
                                     </td>
                                     <td className="px-4 py-3 max-w-xs">

@@ -15,24 +15,22 @@ from backend.services.cleaner import clean_text
 
 # ─── Regex Patterns ──────────────────────────────────────────────────────────
 
-# Matches question starters like:
-#   "1.", "1)", "Q1.", "Q.1", "Q1)", "Question 1.", "1 ."
+# Matches question starters:
+# - With Q: "Q1", "Q.1", "Question 1:" (allows spaces after)
+# - Without Q: "1.", "1)", "1-" (MUST have a punctuation mark AND space or eol to prevent matching "5.20m")
 _QUESTION_START = re.compile(
-    r"^(?:Q(?:uestion)?[\s.]*)?"    # optional Q / Question prefix
-    r"(\d{1,3})"                    # question number (capture group 1)
-    r"[\s.)\-:]+"                   # separator
-    r"(.+)",                        # question text (capture group 2)
+    r"^(?:Q(?:uestion)?\s*(\d{1,3})[\s.)\-:]*|(\d{1,3})[.)\-:]+(?=\s|$))\s*(.*)",
     re.IGNORECASE
 )
 
-# Matches option lines like:
-#   "(a) Paris", "A. Paris", "A) Paris", "(A) Paris", "a. Paris", "i) Paris"
-_OPTION_LINE = re.compile(
-    r"^\(?([A-Ea-e]|[ivxIVX]{1,4})\)?[\s.)\-:]+(.+)"
+# Matches option lines:
+# - "(a)", "(A)", "a.", "A)", "i)"
+# - MUST have a surrounding parenthesis or a trailing punctuation mark.
+_OPTION_START = re.compile(
+    r"^(?:\(([A-Ea-e]|[ivxIVX]{1,4})\)|([A-Ea-e]|[ivxIVX]{1,4})[.)\-:])\s*(.*)$"
 )
 
-# Matches answer key lines like:
-#   "Answer: C", "Ans: (b)", "Correct Answer: A", "Key: D"
+# Matches answer key lines:
 _ANSWER_LINE = re.compile(
     r"^(?:answer|ans|correct\s+answer|key)[\s:.\-]+\(?([A-Ea-e])\)?",
     re.IGNORECASE
@@ -42,9 +40,6 @@ _ANSWER_LINE = re.compile(
 # ─── Main Normalizer ─────────────────────────────────────────────────────────
 
 def normalize(raw_text: str, source_file: str = None) -> NormalizationResult:
-    """
-    Full pipeline: clean → segment → parse → validate → return NormalizationResult.
-    """
     cleaned = clean_text(raw_text)
     questions, warnings = _parse_questions(cleaned)
 
@@ -62,30 +57,26 @@ def normalize(raw_text: str, source_file: str = None) -> NormalizationResult:
 
 
 def _parse_questions(text: str) -> Tuple[List[Question], List[str]]:
-    """
-    Segments text into question blocks and parses each one.
-    """
     lines = text.splitlines()
     questions: List[Question] = []
     warnings: List[str] = []
 
     current_q_num: Optional[int] = None
-    current_q_text: str = ""
+    current_q_text: List[str] = []
     current_options: List[Option] = []
     current_answer: Optional[str] = None
-    continuation_lines: List[str] = []
+    
+    # State tracking: "TEXT" or "OPTION"
+    # If "OPTION", we append subsequent lines to the LAST option's text
+    current_state = "ROOT" 
 
     def _flush():
-        """Commit the current question buffer to the questions list."""
-        nonlocal current_q_num, current_q_text, current_options, current_answer, continuation_lines
-
-        if current_q_num is None:
+        nonlocal current_q_num, current_q_text, current_options, current_answer
+        
+        # Don't save if there's no actual question text (e.g., random "1." from a grid)
+        full_text = " ".join(current_q_text).strip()
+        if current_q_num is None or not full_text:
             return
-
-        full_text = current_q_text
-        if continuation_lines:
-            full_text += " " + " ".join(continuation_lines)
-        full_text = full_text.strip()
 
         q = Question(
             id=current_q_num,
@@ -102,46 +93,48 @@ def _parse_questions(text: str) -> Tuple[List[Question], List[str]]:
 
         questions.append(q)
 
-        # Reset buffer
-        current_q_num = None
-        current_q_text = ""
-        current_options = []
-        current_answer = None
-        continuation_lines = []
-
     for line in lines:
         line = line.strip()
         if not line:
             continue
 
-        # 1. Check for answer key line
+        # 1. Check for answer key
         ans_match = _ANSWER_LINE.match(line)
         if ans_match and current_q_num is not None:
             current_answer = ans_match.group(1).upper()
             continue
 
-        # 2. Check for option line
-        opt_match = _OPTION_LINE.match(line)
-        if opt_match and current_q_num is not None:
-            label = opt_match.group(1).upper()
-            text = opt_match.group(2).strip()
-            current_options.append(Option(label=label, text=text))
-            continue
-
-        # 3. Check for new question
+        # 2. Check for new question
         q_match = _QUESTION_START.match(line)
         if q_match:
-            _flush()  # save previous question
-            current_q_num = int(q_match.group(1))
-            current_q_text = q_match.group(2).strip()
-            continuation_lines = []
+            _flush()  # save previous
+            q_num_str = q_match.group(1) or q_match.group(2)
+            current_q_num = int(q_num_str)
+            remainder = q_match.group(3)
+            current_q_text = [remainder.strip()] if remainder.strip() else []
+            current_options = []
+            current_answer = None
+            current_state = "TEXT"
             continue
 
-        # 4. Continuation of current question text (before any options)
-        if current_q_num is not None and not current_options:
-            continuation_lines.append(line)
+        # 3. Check for option line
+        opt_match = _OPTION_START.match(line)
+        # Avoid matching random standalone text as options unless we are currently inside a question
+        if opt_match and current_q_num is not None:
+            label = (opt_match.group(1) or opt_match.group(2)).upper()
+            remainder = opt_match.group(3)
+            current_options.append(Option(label=label, text=remainder.strip() if remainder else ""))
+            current_state = "OPTION"
+            continue
 
-    # Flush the last question
+        # 4. Continuation line
+        if current_q_num is not None:
+            if current_state == "TEXT":
+                current_q_text.append(line)
+            elif current_state == "OPTION" and len(current_options) > 0:
+                # Append to the last option's text
+                last_opt = current_options[-1]
+                last_opt.text = (last_opt.text + " " + line).strip()
+
     _flush()
-
     return questions, warnings

@@ -50,14 +50,14 @@ export default function Dashboard({ data, onReset }) {
 
             {/* Warnings */}
             {warnings.length > 0 && (
-                <div className="p-4 rounded-xl"
-                    style={{ background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)' }}>
-                    <p className="font-semibold text-sm mb-2" style={{ color: 'var(--accent-yellow)' }}>
-                        ⚠️ {warnings.length} Normalization warning{warnings.length > 1 ? 's' : ''}
+                <div className="p-4 rounded-xl max-h-40 overflow-y-auto"
+                    style={{ background: 'rgba(234, 179, 8, 0.05)', border: '1px solid rgba(234, 179, 8, 0.15)' }}>
+                    <p className="font-semibold text-sm mb-2 flex items-center gap-2" style={{ color: 'var(--accent-yellow)' }}>
+                        <span>⚠️</span> {warnings.length} Parser Warning{warnings.length > 1 ? 's' : ''} (Missing Options)
                     </p>
                     <ul className="space-y-1">
                         {warnings.map((w, i) => (
-                            <li key={i} className="text-xs opacity-80" style={{ color: 'var(--accent-yellow)' }}>• {w}</li>
+                            <li key={i} className="text-xs opacity-75 font-mono" style={{ color: 'var(--accent-yellow)' }}>• {w}</li>
                         ))}
                     </ul>
                 </div>

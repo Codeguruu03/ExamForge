@@ -1,0 +1,3439 @@
+1.
+A projectile is given an initial velocity of  ˆ
+ˆ
+(
+2 )
+i
+j
++
+m/s, where
+ˆi  is along the ground and  ˆj  is along the vertical. If  g = 10
+m/s2 , the equation of its trajectory is :
+(a)
+y = x – 5x2
+(b)
+y = 2x – 5x2
+(c)
+4y = 2x – 5x2
+(d)
+4y = 2x – 25x2
+2.
+An aircraft moving with a speed of 250 m/s is at a height of
+6000 m, just overhead of an anti aircraft–gun. If the muzzle
+velocity is 500 m/s, the firing angle q should be:
+(a)
+30°
+(b)
+45°
+(c)
+60°
+(d)
+75°
+3.
+Two racing cars of masses m1 and m2 are moving in circles
+of radii r1 and r2 respectively. Their speeds are such that
+each makes a complete circle in the same duration of time t.
+The ratio of the angular speed of the first to the second car
+is
+(a)
+m1 : m2
+(b)
+r1 : r2
+(c) 
+1 :  1
+(d)
+m1r1 : m2r2
+4.
+A boy playing  on the roof  of a 10 m high building throws a
+ball  with a speed of 10m/s at an angle of 30º with the
+horizontal. How far from the throwing point will the ball be
+at the height of 10 m from the ground ?
+RESPONSE
+GRID
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Space for Rough Work
+[
+2
+1
+3
+10m/s , sin30
+, cos30
+2
+2
+o
+o
+g =
+=
+=
+]
+(a)
+5.20m
+(b)
+4.33m
+(c)
+2.60m
+(d)
+8.66m
+5.
+A bomber plane moves horizontally with a speed of 500 m/s
+and a bomb released from it, strikes the ground in 10 sec.
+Angle at which it strikes the ground wil be (g = 10 m/s2)
+(a)
+1 1
+tan
+5
+- æ ö
+ç ÷
+è ø
+(b)
+1
+tan 5
+æ ö
+ç ÷
+è ø
+(c)
+tan–1 (1)
+(d)
+tan–1 (5)
+6.
+Two particles start simultaneously from the same point and
+move along two straight lines, one with uniform velocity v
+and other with a uniform acceleration a. If a is the angle
+between the lines of motion of two particles then the least
+value of relative velocity will be at time given by
+(a)
+sin a
+v
+a
+(b)
+cosa
+v
+a
+(c)
+tan a
+v
+a
+(d)
+cot a
+v
+a
+7.
+Initial velocity with which a body is projected is 10 m/sec
+and angle of projection is 60°. Find the range R
+30°
+R
+x
+y
+(a)
+15 3m
+2
+(b)
+40 m
+3
+(c)
+5 3m
+(d)
+20 m
+3
+Max. Marks : 180
+Marking Scheme : (+4) for correct & (–1) for incorrect answer
+Time : 60 min.
+INSTRUCTIONS : This Daily Practice Problem Sheet contains 45 MCQs. For each question only one option is correct.
+Darken the correct circle/ bubble in the Response Grid provided on each page.
+SYLLABUS : Motion in a Plane
+DPP - Daily Practice Problems
+Date :
+Start Time :
+End Time :
+Chapter-wise Sheets
+PHYSICS
+CP03
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+Space for Rough Work
+P-10
+DPP/ CP03
+RESPONSE
+GRID
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+8.
+The position vectors of points A, B, C and D are
+A = 3 i
+4 j
+5 k B
+4 i
+5 j
+6 k C
+7 i
+9 j
+3 k
+]
+]
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
++
++
+=
++
++
+=
++
++
+and D
+4 i
+6 j
+Ù
+Ù
+=
++
+ then the displacement vectors AB
+uuur
+ and
+CD
+uuur
+ are
+(a)
+perpendicular
+(b)
+parallel
+(c)
+antiparallel
+(d)
+inclined at an angle of 60°
+9.
+A person swims in a river aiming to reach exactly on the
+opposite point on the bank of a river. His speed of swimming
+is 0.5 m/s at an angle of 120º with the direction of flow of
+water. The speed of water is
+(a)
+1.0 m/s
+(b)
+0.5 m/s
+(c)
+0.25 m/s (d)
+0.43 m/s
+10.
+A projectile thrown with velocity v making angle q with
+vertical gains maximum height H in the time for which the
+projectile remains in air, the time period is
+(a)
+g
+/
+cos
+H
+q
+(b)
+g
+/
+cos
+H
+2
+q
+(c)
+g
+/
+H
+4
+(d)
+g
+/
+H
+8
+11.
+A ball is thrown from a point with a speed 
+0
+'
+'
+v
+ at an
+elevation angle of q. From the same point and at the same
+instant, a person starts running with a constant speed 
+0
+'
+'
+2
+v
+to catch the ball. Will the person be able to catch the ball? If
+yes, what should be the angle of projection q ?
+(a)
+No, 0°
+(b)
+Yes, 30° (c)
+Yes, 60° (d)
+Yes, 45°
+12.
+If vectors 
+ˆ
+ˆ
+A
+cos
+ti
+sin tj
+=
+w +
+w
+r
+ and 
+t
+t
+ˆ
+ˆ
+B
+cos
+i
+sin
+j
+2
+2
+w
+w
+=
++
+r
+are functions of time, then the value of t at which they are
+orthogonal to each other is :
+(a)
+t
+2
+p
+=
+w (b)
+t
+p
+= w
+(c)
+t = 0
+(d)
+t
+4
+p
+=
+w
+13.
+A bus is moving on a straight road towards north with a
+uniform speed of 50 km/hour turns through 90°. If the speed
+remains unchanged after turning, the increase in the velocity
+of bus in the turning process is
+(a)
+70.7 km/hour along south-west direction
+(b)
+70.7 km/hour along north-west direction.
+(c)
+50 km/hour along west
+(d)
+zero
+14.
+The velocity of projection of oblique projectile is
+1
+s
+m
+)jˆ
+8
+iˆ
+6
+(
+-
++
+. The horizontal range of the  projectile is
+(a)
+4.9 m
+(b)
+9.6 m
+(c)
+19.6 m
+(d)
+14 m
+15.
+A point P moves in counter-clockwise direction on a circular
+path as shown in the figure. The
+movement of 'P' is such that it
+sweeps out a length s = t3 + 5,
+where s is in metres and t is in
+seconds. The radius of the path
+is 20 m. The acceleration of 'P'
+when t = 2 s is nearly
+P(x,y)
+O
+A
+x
+B
+y
+20m
+(a)
+13 m/s2 (b)
+12 m/s2 (c)
+7.2 ms2
+(d)
+14 m/s2
+16.
+The resultant of two vectors A
+®  and B
+®  is perpendicular to
+the vector A
+®
+ and its magnitude is equal to half the
+magnitude of vector B
+® . The angle between A
+®  and B
+®  is
+(a)
+120°
+(b)
+150°
+(c)
+135°
+(d)
+180°
+17.
+A man running along a straight road with uniform velocity
+ˆ
+=
+r
+u
+u
+i  feels that the rain is falling vertically down along – ˆj.
+If he doubles his speed, he finds that the rain is coming at
+an angle q with the vertical. The velocity of the rain with
+respect to the ground is
+(a)
+ui – uj
+(b)
+ˆ
+tan
+-
+q
+u
+ui
+j
+(c)
+ˆ
+ˆ
+2
+cot
++
+q
+ui
+u
+j
+(d)
+ˆ
+sin
++
+q
+ui
+u
+j
+18.
+Two projectiles A and B thrown with speeds in the ratio
+1 : 
+2  acquired the same heights. If A is thrown at an angle
+of 45° with the horizontal, the angle of projection of B will be
+(a)
+0°
+(b)
+60°
+(c)
+30°
+(d)
+45°
+19.
+A projectile can have the same range ‘R’ for two angles of
+projection. If ‘T1’ and ‘T2’  be time of flights in the two
+cases, then the product of the two time of flights is directly
+proportional to
+(a)
+R
+(b)
+1
+R
+(c)
+2
+1
+R
+(d)
+R2
+20.
+A man standing on the roof of a house of height h throws
+one particle vertically downwards and another particle
+horizontally with the same velocity u. The ratio of their
+velocities when they reach the earth's surface will be
+(a)
+2
+2gh
+u
+: u
++
+(b)
+1 : 2
+(c)
+1 : 1
+(d)
+2
+2gh
+u
+:
+2gh
++
+21.
+If a unit vector is represented by 
+ˆ
+ˆ
+ˆ
+0.5
+0.8
+i
+j
+ck
++
++
+, the value
+of c is
+(a)
+1
+(b)
+11
+.0
+(c)
+01
+.0
+(d)
+0.39
+22.
+An aeroplane is flying at a constant horizontal velocity of
+600 km/hr at an elevation of 6 km towards a point directly
+above the target on the earth's surface. At an appropriate
+time, the pilot releases a ball so that it strikes the target at
+the earth. The ball will appear to be falling
+(a)
+on a parabolic path as seen by pilot in the plane
+(b)
+vertically along a straight path as seen by an observer
+on the ground near the target
+(c)
+on a parabolic path as seen by an observer on the
+ground near the target
+(d)
+on a zig-zag path as seen by pilot in the plane
+EBD_71
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+Space for Rough Work
+DPP/ CP03
+P-11
+23.
+A particle is projected with a velocity v such that its range
+on the horizontal plane is twice the greatest height attained
+by it. The range of the projectile is (where g is acceleration
+due to gravity)
+(a)
+2
+4
+5
+v
+g
+(b)
+2
+4
+5
+g
+v
+(c)
+2
+v
+g
+(d)
+2
+4
+5
+v
+g
+24.
+Two stones are projected from the same point with same
+speed making angles (45° + q) and (45° – q) with the horizontal
+respectively. If 
+°
+£
+q
+45 , then the horizontal ranges of the
+two stones are in the ratio of
+(a)
+1 : 1
+(b)
+1 : 2
+(c)
+1 : 3
+(d)
+1 : 4
+25.
+Three forces acting on a body are shown in the figure. To
+have the resultant force only along the y-direction, the
+magnitude of the minimum additional force needed is:
+(a)
+0.5 N
+2N
+x
+60°
+30°
+4N
+y
+1N
+(b)
+1.5 N
+(c)
+3 N
+4
+(d)
+3N
+26.
+A particle moves in x-y plane under the action of force F
+and p  at a given time t  px = 2 cos q, py = 2sinq. Then the
+angle q  between F  and p at a given time t is :
+(a)
+°
+=
+q
+30
+(b)
+°
+=
+q
+180 (c)
+°
+=
+q
+0
+(d)
+°
+=
+q
+90
+27.
+A person sitting in the rear end of the compartment throws
+a ball towards the front end. The ball follows a parabolic
+path. The train is  moving with velocity of 20 m/s. A person
+standing outside on the ground also observes the ball. How
+will the maximum heights (ym) attained and the ranges (R)
+seen by the thrower and the outside observer compare with
+each other?
+(a)
+Same ym different R
+(b)
+Same ym and R
+(c)
+Different ym same R
+(d)
+Different ym and R
+28.
+A car moves on a circular road. It describes equal angles
+about the centre in equal intervals of time. Which of the
+following statement about the velocity of the car is true ?
+(a)
+Magnitude of velocity is not constant
+(b)
+Both magnitude and direction of velocity change
+(c)
+Velocity is directed towards the centre of the circle
+(d)
+Magnitude of velocity is constant but direction
+changes
+29.
+Three particles A, B and C are thrown from the top of a
+tower with the same speed. A is thrown up, B is thrown
+down and C is horizontally. They hit the ground with speeds
+vA, vB and vC respectively then,
+(a)
+vA = vB = vC
+(b)
+vA = vB > vC
+(c)
+vB > vC > vA
+(d)
+vA > vB = vC
+30.
+A particle is moving such that its position coordinate (x, y)
+are
+(2m, 3m) at time t = 0
+(6m, 7m) at time t = 2 s and
+(13m, 14m) at time t = 5s.
+Average velocity vector 
+av
+(V )
+r
+ from t = 0 to t = 5s is :
+(a)
+1
+ˆ
+ˆ
+(13i +14j)
+5
+(b)
+7 ˆ
+ˆ
+(i + j)
+3
+(c)
+ˆ
+ˆ
+2(i + j)
+(d)
+11 ˆ
+ˆ
+(i + j)
+5
+31.
+A particle moves so that its position vector is given by
+ˆ
+ˆ
+r
+cos
+tx
+sin
+ty
+=
+w
++
+w
+r
+. Where w is a constant. Which of the
+following is true ?
+(a)
+Velocity and acceleration both are perpendicular to rr
+(b)
+Velocity and acceleration both are parallel to rr
+(c)
+Velocity is perpendicular to rr  and acceleration is
+directed towards the origin
+(d)
+Velocity is perpendicular to rr  and acceleration is
+directed away from the origin
+32.
+Two boys are standing at the ends A and B of a ground
+where AB = a. The boy at B starts running in a direction
+perpendicular to AB with velocity v1. The boy at A starts
+running simultaneously with velocity v and catches the
+other boy in a time t, where t is
+(a)
+2
+2
+1
+/
+a
+v
+v
++
+(b)
+a /(v + v1)
+(c)
+a /(v–v1)
+(d)
+2
+2
+2
+1
+/(
+)
+a
+v
+v
+-
+33.
+A projectile is fired at an angle of 45° with the horizontal.
+Elevation angle of the projectile at its highest point as seen
+from the point of projection is
+(a)
+60°
+(b)
+1 1
+tan
+2
+- æ
+ö
+ç
+÷
+è
+ø
+(c)
+1
+3
+tan
+2
+- æ
+ö
+ç
+÷
+è
+ø
+(d) 45°
+34.
+The position vector of a particle R
+r
+as a function of time is
+given by 
+ˆ
+ˆ
+R
+4sin(2 t)i
+4cos(2 t)j
+=
+p
++
+p
+r
+where R is in meter, t in seconds and ˆi  and ˆj denote unit
+vectors along x-and y-directions, respectively.
+Which one of the following statements is wrong for the
+motion of particle?
+(a) 
+Magnitude of acceleration vector is 
+2
+v
+R
+, where v is
+the velocity of particle
+(b) Magnitude of the velocity of particle is 8 meter/second
+(c) 
+Path of the particle is a circle of radius 4 meter.
+(d) Acceleration vector is along - R
+r
+35.
+The vectors A
+uur
+ and B
+uur
+ are such that |
+| |
+|
+A
+B
+A
+B
++
+=
+-
+uur
+uur
+uur
+uur
+The angle between the two vectors is
+(a)
+60°
+(b)
+75°
+(c)
+45°
+(d)
+90°
+RESPONSE
+GRID
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+Space for Rough Work
+P-12
+DPP/ CP03
+36.
+The velocity of projection of oblique projectile is
+1
+s
+m
+)jˆ
+8
+iˆ
+6
+(
+-
++
+. The horizontal range of the  projectile is
+(a)
+4.9 m
+(b)
+9.6 m
+(c)
+19.6 m
+(d)
+14 m
+37.
+An artillary piece which consistently shoots its shells with
+the same muzzle speed has a maximum range R. To hit a
+target which is R/2 from the gun and on the same level, the
+elevation angle of the gun should be
+(a)
+15°
+(b)
+45°
+(c)
+30°
+(d)
+60°
+38.
+A car runs at a constant speed on a circular track of radius
+100 m, taking 62.8 seconds in every circular loop. The average
+velocity and average speed for each circular loop
+respectively, is
+(a)
+0, 10 m/s
+(b)
+10 m/s, 10 m/s
+(c)
+10 m/s, 0
+(d)
+0, 0
+39.
+A vector of magnitude b is rotated through angle q. What is
+the change in magnitude of the vector?
+(a)
+2
+sin
+b
+2
+q (b)
+2
+cos
+b
+2
+q (c)
+q
+sin
+b
+2
+(d)
+q
+cos
+b
+2
+40.
+A stone projected with a velocity u at an angle q with the
+horizontal reaches maximum height H1. When it is projected
+with velocity u at an angle 2
+p
+æ
+ö
+-q
+ç
+÷
+è
+ø  with the horizontal, it
+reaches maximum height H2. The relation between the
+horizontal range R of the projectile, heights H1 and H2 is
+(a)
+1
+2
+R
+4 H H
+=
+(b)
+R = 4(H1 – H2)
+(c)
+R = 4 (H1 + H2)
+(d)
+2
+1
+2
+2
+H
+R
+H
+=
+41.
+The vector sum of two forces is perpendicular to their vector
+differences. In that case, the forces
+(a)
+cannot be predicted
+(b)
+are equal to each other
+(c)
+are equal to each other in magnitude
+(d)
+are not equal to each other in magnitude
+42.
+A particle crossing the origin of co-ordinates at time t = 0,
+moves in the xy-plane with a constant acceleration a in the
+y-direction. If its equation of motion is y = bx2 (b  is  a
+constant), its velocity component in the x-direction is
+(a)
+2b
+a
+(b)
+a
+2b
+(c)
+a
+b
+(d)
+b
+a
+43.
+A vector A
+ur
+ is rotated by a small angle Dq radian (Dq << 1)
+to get a new vector B
+ur  In that case B
+A
+-
+ur
+ur
+ is  :
+(a)
+A
+ur
+Dq
+(b)
+B
+A
+Dq - ur
+ur
+(c)
+A
+2
+1
+2
+æ
+ö
+Dq
+-
+ç
+÷
+ç
+÷
+è
+ø
+ur
+(d)
+0
+44.
+If a body moving in circular path maintains constant speed
+of 10 ms–1, then which of the following correctly describes
+relation between acceleration and radius ?
+(a)
+r
+a
+(b)
+r
+a
+(c)
+r
+a
+(d)
+r
+a
+45.
+The position of a projectile launched from the origin at t = 0
+is given by 
+(
+)
+ˆ
+ˆ
+40
+50
+m
+r
+i
+j
+=
++
+r
+at t = 2s. If the projectile was
+launched at an angle q from the horizontal, then q is
+(take g = 10 ms–2)
+(a)
+1 2
+tan
+3
+-
+(b)   
+1 3
+tan
+2
+-
+(c)
+1 7
+tan
+4
+-
+(d)
+1 4
+tan
+5
+-
+RESPONSE
+GRID
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+Total Questions
+45
+Total Marks 
+180
+Attempted
+Correct
+Incorrect
+Net Score
+Cut-off Score
+50
+Qualifying Score
+70
+DAILY PRACTICE PROBLEM DPP CHAPTERWISE CP03 - PHYSICS
+Success Gap = Net Score – Qualifying Score
+Net Score = (Correct × 4) – (Incorrect × 1)
+EBD_71
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+PHYSICS
+SOLUTIONS
+DPP/CP03
+DAILY PRACTICE
+PROBLEMS
+1.
+(b)
+ˆ
+ˆ
+ˆ
+ˆ
+2
+cos
+1,
+sin
+2
+= +
+=
++
+Þ
+q =
+q =
+r
+x
+y
+u
+i
+j
+u i
+u j
+u
+u
+2
+2
+1
+tan
+2
+x
+gx
+y
+x
+u
+=
+q-
+\  
+2
+2
+1
+2
+2
+5
+2
+y
+x
+gx
+x
+x
+=
+-
+=
+-
+2.
+(c)
+500 cosq = 250  Þ  cosq = 1
+2
+or
+q = 60°.
+3.
+(c)
+As time periods are equal therefore ratio of angular
+speeds will be 1 : 1. 
+2
+T
+p
+æ
+ö
+w=
+ç
+÷
+è
+ø
+.
+4.
+(d)
+30°
+u
+10 m
+10 m
+Range R
+Tower
+From the figure it is clear that range is required
+2
+2
+sin 2
+(10) sin(2
+30 )
+5 3
+8.66 m
+10
+u
+R
+g
+q
+´
+°
+=
+=
+=
+=
+5.
+(a)
+Horizontal component of velocity vx = 500 m/s and
+vertical component of velocity while striking the
+ground.
+uv = 0 + 10 × 10 = 100 m/s
+A
+B
+q
+u = 500 m/s
+500 m/s
+\ Angle with which it strikes the ground
+1
+1
+1
+100
+1
+tan
+tan
+tan
+500
+5
+-
+-
+-
+æ
+ö
+æ
+ö
+æ ö
+q =
+=
+=
+ç
+÷
+ç ÷
+ç
+÷
+è
+ø
+è ø
+è
+ø
+v
+x
+u
+u
+6.
+(b)
+The velocity of first particle, v1 = v
+The velocity of second particle, v2 = at
+Relative velocity, 12
+1
+2
+=
+-
+r
+r
+r
+v
+v
+v
+or 
+(
+)
+(
+)
+2
+2
+2
+12
+2
+cos
+=
++
+-
+a
+v
+v
+at
+v at
+For least value of relative velocity, 
+12
+0
+=
+dv
+dt
+or  
+2
+2 2
+2
+cos
+0
+é
+ù
++
+-
+a =
+ë
+û
+d
+v
+a t
+vat
+dt
+or  0 + a2 × 2t – 2vacos a = 0
+or  
+cosa
+= v
+t
+a
+7.
+(d)
+2usin30
+2(10) (1/ 2)
+2
+t
+sec
+g cos30
+10 ( 3 / 2)
+3
+°
+=
+=
+=
+°
+R = 10 cos 30° t – 1
+2  g sin 30° t2
+= 
+10 3
+2
+1
+1
+4
+(10)
+2
+2
+2
+3
+3
+æ
+ö
+æ
+ö
+-
+ç
+÷
+ç
+÷
+è
+ø
+è
+ø
+ = 
+10
+20
+10
+m
+3
+3
+-
+=
+8.
+(b)
+AB
+4 i
+5 j
+6 k
+3 i
+4 j
+5 k
+i
+j
+k
+(
+)
+(
+)
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+=
++
++
+-
++
++
+=
++ +
+uuur
+CD
+4 i
+6 j
+7 i
+9 j
+3 k
+3 i
+3 j
+3 k
+(
+)
+(
+)
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+Ù
+=
++
+-
++
++
+=
+-
++
+uuur
+AB
+uuur  and CD
+uuur
+are parallel, because its cross-product is 0.
+9.
+(c)
+Here v = 0.5 m/sec. u = ?
+so 
+Þ
+=
+q
+v
+u
+sin
+ 
+2
+1
+5.
+u =
+ or u = 0.25 ms–1
+u
+v
+120º
+30º
+C
+B
+A
+direction
+of flow
+river
+10.
+(d)
+Max. height = 
+g
+2
+)
+90
+(
+sin
+v
+H
+2
+2
+q
+-
+=
+    .....(i)
+Time of flight, 
+g
+)
+90
+sin(
+v
+2
+T
+q
+-
+=
+    ...(ii)
+From (i), 
+g
+H
+2
+g
+cos
+v
+=
+q
+Horizontal
+Vertical
+v
+q
+From (ii), 
+2H
+8H
+T
+2
+g
+g
+=
+=
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+S-10
+DPP/ CP03
+11.
+(c)
+Yes, the person can catch the ball when  horizontal
+velocity is equal to the horizontal component of ball’s
+velocity, the motion of ball will be only in vertical
+direction with respect to person for that,
+cos
+or
+60
+2
+o
+o
+v
+v
+=
+q
+q =
+°
+12.
+(b)
+Two vectors are
+A
+r  = 
+ˆ
+ˆ
+cos ti
+sin
+tj
+w +
+w
+B
+r
+ = 
+t
+t
+ˆ
+ˆ
+cos
+i
+sin
+j
+2
+2
+w
+w
++
+For two vectors A
+r  and B
+r
+ to be orthogonal  A.B = 0
+A.B
+r r  = 0 = cos wt.cos
+t
+2
+w  + sin wt.sin
+t
+2
+w
+= cos
+t
+t
+t
+cos
+2
+2
+w
+w
+æ
+ö
+æ
+ö
+w -
+=
+ç
+÷
+ç
+÷
+è
+ø
+è
+ø
+So, 
+t
+2
+2
+w
+p
+=
+\   t = p
+w
+13. (a)
+–1
+1
+50km h
+v =
+ur
+ due North;
+–1
+2
+50km h
+v =
+uur
+ due West. Angle between 
+1v
+ur
+ and
+2
+90º
+v =
+uur
+1
+1
+50 km h
+v
+-
+-
+=
+ur
+ due South
+\ Change in velocity
+2
+1
+2
+1
+|
+|
+|
+(
+) |
+v
+v
+v
+v
+=
+-
+=
++ -
+uur
+ur
+uur
+ur
+2
+2
+2
+2
+2
+1
+50
+50
+70.7 km/h
+v
+v
+=
++
+=
++
+=
+The direction of this change in velocity is in South-West.
+14.
+(b)
+jˆ
+8
+iˆ
+6
+v
++
+=
+8
+10
+6
+q
+Comparing with 
+x
+y
+ˆ
+ˆ
+v
+v i
+v j
+=
++
+uur
+, we get
+vx = 6ms–1 and vy = 8 ms–1
+Also, 
+2
+y
+2
+x
+2
+v
+v
+v
++
+=
+ = 36 + 64 = 100
+or v = 10 ms–1
+10
+6
+cos
+and
+10
+8
+sin
+=
+q
+=
+q
+g
+cos
+sin
+v
+2
+g
+2
+sin
+v
+R
+2
+2
+q
+q
+=
+q
+=
+8
+6
+1
+R
+2 10 10 10
+10
+10
+=
+´
+´
+´
+´
+´
+ = 9.6 m
+15.
+(d)
+s = t3 + 5
+Þ  velocity, 
+2
+3
+ds
+v
+t
+dt
+=
+=
+Tangential acceleration at = 
+6
+dv
+t
+dt =
+Radial acceleration ac = 
+2
+4
+9
+v
+t
+R
+R
+=
+At t = 2s,   
+6 2
+12
+ta =
+´
+=
+ m/s2
+9 16
+7.2
+20
+c
+a
+´
+=
+=
+ m/s2
+\ Resultant acceleration
+= 
+2
+2
+t
+c
+a
+a
++
+ = 
+2
+2
+(12)
+(7.2)
++
+= 144
+51.84
++
+= 195.84 = 14 m/s2
+16.
+(b)
+2
+2
+B
+A
+B
+2ABcos
+2 =
++
++
+q ...... (i)
+\
+tan 90° =
+B sin
+A
+B cos
+q
++
+q  Þ A + B cos q = 0
+\
+cos q = – A
+B
+Hence, from (i)
+2
+B
+A = A2 + B2 – 2A2 Þ A=
+B
+3 2
+Þ
+cos q = – A
+B = –
+3
+2   \ q = 150°
+17.
+(b)
+Suppose velocity of rain
+ˆ
+ˆ
+=
+-
+v
+i
+j
+r
+R
+vx
+y
+v
+and the velocity of  the man
+ˆ
+=
+r
+m
+u
+v
+i
+\
+Velocity of rain relative to man
+(
+)
+Rm
+R
+m
+x
+y
+ˆ
+ˆ
+v
+v
+v
+v
+u i
+v j
+=
+-
+=
+-
+-
+r
+r
+r
+According to given condition that rain appears to fall
+vertically, so (vx – u) must be zero.
+\
+vx – u  = 0 or vx = u
+When he doubles his speed,
+ˆ
+2
+=
+v'
+i
+uur
+m
+u
+Now v
+r
+Rm  = 
+-
+v
+v'
+r
+uur
+R
+m
+= (
+)
+ˆ
+ˆ
+ˆ
+(2
+)
+-
+i -
+j
+i
+x
+y
+v
+v
+u
+ = (
+)ˆ
+ˆ
+2
+–
+-
+i
+j 
+x
+y
+v
+u
+v
+The v
+r
+Rm  makes an angle q with the vertical
+tan q = 
+componend of
+componend of
+-
+-
+v
+v
+r
+r Rm
+Rm
+x
+y
+= 
+(
+)
+2
+-
+-
+x
+y
+v
+u
+v
+= 
+2
+-
+- y
+u
+u
+v
+EBD_71
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+DPP/ CP03
+S-11
+which gives
+vy  = tanq
+u
+Thus the velocity of rain
+v
+r
+R  =
+ˆ
+ˆ
+-
+i
+i
+x
+y
+v
+v
+=
+ˆ
+ˆ.
+tan
+-
+q
+i
+j
+u
+u
+18.
+(c)
+For projectile A
+Maximum height, HA = 
+2
+2
+A
+u
+sin 45
+2g
+°
+For projectile B
+Maximum height, HB = 
+2
+2
+B
+u sin
+2g
+q
+As we know,   HA = HB
+2
+2
+2
+2
+A
+B
+u
+sin 45
+u sin
+2g
+2g
+°
+q
+=
+2
+2
+A
+2
+2
+B
+u
+sin
+sin 45
+u
+q =
+°
+2
+2
+2
+A
+B
+u
+sin
+sin 45
+u
+æ
+ö
+q =
+°
+ç
+÷
+è
+ø
+2
+2
+2
+1
+1
+sin
+2
+2
+æ
+ö æ
+ö
+q = ç
+÷ ç
+÷
+è
+ø è
+ø  = 1
+4
+1
+sin
+2
+q =
+ Þ 
+1 1
+sin
+30
+2
+- æ
+ö
+q =
+=
+°
+ç
+÷
+è
+ø
+19.
+(a)
+The angle for which the ranges are same is
+complementary.
+Let one angle be q, then other is 90° – q
+1
+2
+2 sin
+2 cos
+,
+u
+u
+T
+T
+g
+g
+q
+q
+=
+=
+2
+1 2
+4
+sin cos
+u
+T T
+g
+q
+q
+=
+ = 2 R        (Q 
+2
+2
+sin
+u
+R
+g
+q
+=
+)
+Hence it is proportional to R.
+20.
+(c)
+When particle thrown in vertically downward direction
+with velocity u then final velocity at the ground level
+h
+2
+2
+v
+u
+gh
+=
++
+u
+v2 = u2 + 2gh  
+2
+2
+v
+u
+gh
+\
+=
++
+Another particle is thrown horizontally with same
+velocity then velocity of particle at the surface of earth.
+h
+u
+v = u
+x
+2
+y
+v
+gh
+=
+v
+Horizontal component of velocity vx = u
+\  Resultant velocity, 
+2
+2
+v
+u
+gh
+=
++
+For both the particles, final velocities when they reach
+the earth's surface are equal.
+21. (b)
+ˆ
+ˆ
+ˆ
+ˆ
+0.5
+0.8
+r
+i
+j
+ck
+=
++
++
+2
+2
+2
+ˆ
+|
+| 1
+(0.5)
+(0.8)
+r
+c
+=
+=
++
++
+2
+2
+2
+(0.5)
+(0.8)
+1
+c
++
++
+=
+2
+0.11
+0.11
+c
+c
+=
+Þ
+=
+22.
+(c)
+The pilot will see the ball falling in straight line because
+the reference frame is moving with the same horizontal
+velocity but the observer at rest will see the ball falling
+in parabolic path.
+23.
+(a)
+R = 2H (given)
+We know,  
+1
+4
+cot
+cot
+2
+R
+H
+=
+q Þ
+q =
+q
+1
+2
+Ö5
+From triangle we can say that 
+2
+1
+sin
+, cos
+5
+5
+q =
+q =
+\  Range of projectile 
+2
+2
+sin cos
+v
+R
+g
+q
+q
+=
+= 
+2
+2
+2
+2
+1
+4
+5
+5
+5
+v
+v
+g
+g
+´
+´
+=
+24.
+(a)
+Note that the given angles of projection add upto 90°.
+For complementary angles of projection  (45° + a) and
+(45° – a) with same initial velocity u, range R is same.
+q1 + q2 = (45° + a) + (45° – a) = 90°
+So, the ratio of horizontal ranges is 1 : 1.
+25.
+(a)
+The components of 1 N and 2N forces
+along + x axis = 1 cos 60° + 2 sin 30°
+= 
+1
+1
+1
+3
+1
+2
+1
+1.5N
+2
+2
+2
+2
+´
++
+´
+=
++ =
+=
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+S-12
+DPP/ CP03
+1N
+Y
+4N
+2N
+2cos30°
+1cos 60° + 2 sin 30°
+4 cos 30° + 1 sin 60°
+4 sin 30°
+30°
+60°
+30°
+The component of 4 N force along –x-axis
+= 4 sin 30° = 
+1
+4
+2N
+2
+´
+=
+.
+Therefore, if a force of 0.5N is applied along + x-axis,
+the resultant force along x-axis will become zero and
+the resultant force will be obtained only along y-axis.
+26.
+(d)
+x
+x
+d p
+F
+2sin .
+dt
+=
+= -
+q
+Similarly, 
+y
+y
+d p
+F
+2cos .
+dx
+=
+=
+q
+Angle q  between two vectors
+cos q = 
+x x
+y y
+F p
+F p
+|F || p |
++
+r
+r
+   = ( 2sin )(2cos )
+(2cos )(2sin )
+| F | | p |
+-
+q
+q +
+q
+q
+r
+r
+Þ cos
+0
+q =
+ Þ  
+90
+q =
+°
+27.
+(a)
+The motion of the train will affect only the horizontal
+component of the velocity of the ball. Since, vertical
+component is same for both observers, the ym will be
+same, but R will be different.
+28.
+(d)
+As body covers equal angle in equal time intervals. Its
+angular velocity and hence magnitude of linear velocity
+is constant.
+29.
+(a)
+For A: It goes up with velocity u will it reaches its
+maximum height (i.e. velocity becomes zero) and comes
+back to O and attains velocity u.
+Using 
+as
+2
+u
+v
+2
+2
++
+=
+ Þ  
+gh
+2
+u
+v
+2
+A
++
+=
+O
+vx
+u =
+vX
+u =
+A
+v
+B
+v
+C
+v
+u
+u
+h
+2
+2
+c
+x
+y
+v
+v
+v
+=
++
+For B, going down with velocity u
+Þ  
+gh
+2
+u
+v
+2
+B
++
+=
+For C, horizontal velocity remains same, i.e. u. Vertical
+velocity = 
+gh
+2
+0 +
+ = 
+gh
+2
+The resultant 
+C
+v
+ = 
+2
+y
+2
+x
+v
+v
++
+ = 
+gh
+2
+u2 +
+.
+Hence 
+C
+B
+A
+v
+v
+v
+=
+=
+30.
+(d)
+av
+vr
+ = 
+r (displacement)
+t (time taken)
+D
+D
+r
+= 
+ˆ
+ˆ
+(13
+2)i
+(14
+3)j
+5
+0
+-
++
+-
+-
+ = 11 ˆ
+ˆ
+(i
+j)
+5
++
+31.
+(c)
+Position vector
+rr  = cos wt ˆx  + sin wt ˆy
+\
+Velocity, vr  = –wsin wt ˆx  + wcos wt ˆy
+and acceleration,
+ar  = –w2 cos wt ˆx  + w sin wt ˆy  = –w2 rr
+rr  × v
+r  = 0 hence r
+v
+^
+r
+r  and
+ar  is directed towards the origin.
+32.
+(d)
+q
+v
+v
+v
+®
+®
+®
+A/B
+1
+O
+Y
+X
+A
+B
+a
+Velocity of A relative to B is given by
+1
+A B
+A
+B
+v
+v
+v
+v
+v
+®
+®
+®
+®
+®
+=
+-
+=
+-
+.... (1)
+By taking x-components of equation (1), we get
+1
+1
+0
+sin
+sin
+v
+v
+v
+v
+=
+q -
+Þ
+q =
+.... (2)
+By taking Y-components of equation (1), we get
+cos
+y
+v
+v
+=
+q
+.....(3)
+Time taken by boy at A to catch the boy at B is given by
+t = Relative displacement along Y - axis
+Relative velocity along Y -axis
+             
+2
+2
+1
+cos
+. 1
+sin
+. 1
+a
+a
+a
+v
+v
+v
+v
+v
+=
+=
+=
+q
+-
+q
+æ
+ö
+- ç
+÷
+è
+ø
+[From equation (1)]
+2
+2
+2
+2
+2
+2
+2
+1
+1
+1
+2
+.
+a
+a
+a
+v
+v
+v
+v
+v
+v
+v
+v
+=
+=
+=
+-
+-
+-
+33.
+(b)
+H = 
+2
+2
+2
+u sin 45
+u
+2g
+4g
+° =
+...(1)
+EBD_71
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+DPP/ CP03
+S-13
+R = 
+2
+2
+u sin90
+u
+g
+g
+° =
+2
+R
+u
+2
+2g
+\
+=
+...(2)
+H
+tan
+R / 2
+\
+a =
+=  
+2
+2
+u
+1
+4g
+2
+u
+2g
+=
+1 1
+tan
+2
+- æ
+ö
+\a =
+ç
+÷
+è
+ø
+H
+u
+R/2
+R/2
+a
+45°
+34.
+(b)
+Here, x = 4sin(2pt)
+ ...(i)
+           y = 4cos(2pt)
+...(ii)
+Squaring and adding equation (i) and (ii)
+x2 + y2 = 42 Þ R = 4
+Motion of the particle is circular motion, acceleration
+vector is along – R
+ur
+and its magnitude = 
+2
+v
+R
+Velocity of particle, v = wR = (2p) (4) = 8p
+35. (d)
+2
+2
+|
+|
+|
+|
+A
+B
+A
+B
++
+=
+-
+ur
+uur
+ur
+uur
+2
+2
+2
+2
+2
+|
+|
+|
+|
+|
+|
+2
+.
+2
+cos
+A
+B
+A
+B
+A B
+A
+B
+AB
++
+=
++
++
+=
++
++
+q
+ur
+ur
+ur uur
+r
+r
+2
+2
+2
+|
+|
+|
+|
+|
+|
+2
+.
+A
+B
+A
+B
+A B
+-
+=
++
+-
+uur
+ur uur
+r
+r
+r
+2
+2
+2
+cos
+A
+B
+AB
+=
++
+-
+q
+So,  A2 + B2 + 2AB cos q
+= A2 + B2 – 2AB cos q
+4
+cos
+0
+cos
+0
+AB
+q =
+Þ
+q =
+\ 
+º
+90
+=
+q
+So, angle between A & B is 90º.
+36.
+(b)
+jˆ
+8
+iˆ
+6
+v
++
+=
+8
+10
+6
+q
+Comparing with 
+x
+y
+ˆ
+ˆ
+v
+v i
+v j
+=
++
+uur
+, we get
+1
+x
+s
+m
+6
+v
+-
+=
+ and 
+1
+y
+s
+m
+8
+v
+-
+=
+Also, 
+2
+y
+2
+x
+2
+v
+v
+v
++
+=
+ = 36 + 64 = 100
+or 
+1
+s
+m
+10
+v
+-
+=
+10
+6
+cos
+and
+10
+8
+sin
+=
+q
+=
+q
+g
+cos
+sin
+v
+2
+g
+2
+sin
+v
+R
+2
+2
+q
+q
+=
+q
+=
+8
+6
+1
+R
+2 10 10 10
+10
+10
+=
+´
+´
+´
+´
+´
+ = 9.6 m
+37.
+(a)
+Range of a projectile is maximum when it is projected at
+an angle of 45° and is given by
+2
+max
+u
+R
+g
+=
+,    where u is the velocity of projection
+Þ
+2
+u
+R
+g
+=
+       \ 
+2
+u
+Rg
+=
+… (i)
+Now, to hit a target at a distance (R/2) from  the gun, we
+must have
+2 sin 2
+2
+R
+u
+g
+q
+=
+,  where q is the angle of projection.
+Þ 
+sin 2
+2
+R
+Rg
+g
+q
+=
+;  from (i)
+Þ 
+1
+sin 2
+2
+q =
+Þ sin 2q = sin 30°
+Þ 2q = 30°    \ q = 15°
+38. (a) Distance covered in one circular loop = 2pr
+= 2 × 3.14 × 100 = 628 m
+Speed 
+628
+10 m / sec
+62.8
+=
+=
+Displacement in one circular loop = 0
+Velocity 
+0
+time
+0
+=
+=
+39.
+(a)
+PQ
+QR
+PR
++
+=
+uuur
+uuuur
+uuur
+         
+b
+P
+q
+R
+Q
+b'
+QR
+b '
+b
+\
+=
+-
+uuur
+uur
+r
+Now 
+2
+| b'
+b |
+(b'
+b ).(b'
+b )
+-
+=
+-
+-
+uur
+ur
+uur
+ur
+uur
+ur
+    
+2
+2
+b'
+2bb' cos
+b
+=
+-
+q +
+    
+2
+2b (1 cos )
+=
+-
+q        [
+b'
+b]
+=
+Q
+      b'
+b
+2b 1 cos
+-
+=
+-
+q
+uur
+r
+    
+2b
+2 sin 2
+q
+æ
+ö
+=
+ç
+÷
+è
+ø  
+2bsin 2
+q
+=
+40.
+(a)
+2
+2
+1
+u sin
+H
+2g
+q
+=
+and  
+2
+2
+2
+2
+2
+u sin (90
+)
+u cos
+H
+2g
+2g
+° - q
+q
+=
+=
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+sin
+cos
+(
+sin 2 )
+2
+2
+16
+16
+=
+´
+=
+=
+u
+u
+u
+R
+H H
+g
+g
+g
+q
+q
+q
+1
+2
+4
+\
+=
+R
+H H
+41.
+(c)
+B
+A
+sum
+vector
+P
+r
+r
+r
++
+=
+=
+Q
+vector differences
+A
+B
+=
+=
+-
+r
+r
+r
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in
+
+S-14
+DPP/ CP03
+Since P
+r  and Q
+r
+ are perpendicular
+\ 
+0
+Q
+.
+P
+=
+r
+r
+Þ  (A
+B).(A
+B)
+0
++
+-
+=
+r
+r
+r
+r
+  Þ  A2 = B2 Þ  
+B
+A =
+42.
+(b)
+y = bx2
+Differentiating w.r.t to t an both sides, we get
+dy
+dx
+b2x
+dx
+dt
+=
+vy = 2bxvx
+Again differentiating w.r.t to t on both sides we get
+y
+2
+x
+x
+x
+dv
+dv
+dx
+2bv
+2bx
+2bv
+0
+dt
+dt
+dt
+=
++
+=
++
+[
+x
+dv
+dt  = 0, because the particle has constant
+acceleration along y-direction]
+Now, 
+y
+2
+x
+dv
+a
+2bv ;
+dt =
+=
+2
+x
+a
+v
+2b
+=
+vx = 
+a
+2b
+43.
+(a)
+Arc length =  radius × angle
+So, |
+–
+| |
+|
+=
+D q
+ur
+ur
+ur
+B
+A
+A
+B
+A
+B
+A –
+q
+44.
+(c)
+Speed, V = constant (from question)
+Centripetal acceleration,
+a = 
+2
+V
+r
+ra = constant
+Hence graph (c) correctly describes relation between
+acceleration and radius.
+45. (c)
+From question,
+Horizontal velocity (initial),
+40
+20m/s
+2
+=
+=
+x
+u
+Vertical velocity (initial), 50 = uy t + 1
+2  gt2
+Þ
+uy × 2 + 1
+2  (–10) ×4
+or,
+50 = 2uy  – 20
+or,
+uy = 70
+35m /s
+2 =
+\
+35
+7
+tan
+20
+4
+q =
+=
+=
+y
+x
+u
+u
+Þ
+Angle q = tan–1 7
+4
+EBD_71
+y
+p
+g
+www.studentbro.in
+www.studentbro.in
+www.studentbro.in

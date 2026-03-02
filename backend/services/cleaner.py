@@ -20,6 +20,12 @@ _NOISE_PATTERNS = [
     r"^\s*\(?\s*continued\s*\)?\s*$",               # "(continued)"
     r"^\s*www\.\S+\s*$",                     # website URLs
     r"^\s*©.*$",                             # copyright lines
+    r"^\s*P-\d+\s*$",                        # "P-10" page numbers
+    r"^\s*DPP.*$",                           # DPP headers "DPP / CP03"
+    r"^\s*Chapter-wise Sheets\s*$",
+    r"^\s*PHYSICS\s*$",
+    r"^\s*Start Time\s*:.*$",
+    r"^\s*End Time\s*:.*$",
 ]
 
 _NOISE_RE = [re.compile(p, re.IGNORECASE) for p in _NOISE_PATTERNS]
@@ -40,8 +46,15 @@ def clean_text(raw: str) -> str:
         if line:
             cleaned_lines.append(line)
 
-    # Collapse more than two consecutive blank lines into one
+    # Combine lines to apply block-level cleaning
     text = "\n".join(cleaned_lines)
+    
+    # Custom rule for DPP Response Grids which interrupt questions
+    text = re.sub(r"RESPONSE[\s\n]*GRID[\s\d\.\n]*Space for Rough Work(?:.*?(?:\n|$))?", "", text, flags=re.IGNORECASE | re.DOTALL)
+    # Remove rough work brackets that might have bypassed line rules due to wrapped lines
+    text = re.sub(r"\[.*?\]", "", text, flags=re.DOTALL)
+    
+    # Collapse more than two consecutive blank lines into one
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
 
